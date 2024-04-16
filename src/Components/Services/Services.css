@@ -1,0 +1,14 @@
+.awesome {
+  position: relative;
+}
+.awesome p {
+    font-size: 20px;
+  }
+
+.s-btn {
+    margin-top: 2rem;
+}
+.services {
+  padding: 5rem 0;
+  margin-bottom: 23rem;
+}

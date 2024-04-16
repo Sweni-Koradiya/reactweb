@@ -1,0 +1,53 @@
+.n-list  ul li {
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.n-list  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.n-name a{
+    display: inline;
+    margin-right: 30px;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: var(--fonts);
+    text-decoration: none;
+    color: var(--black);
+
+}
+.n-list ul {
+    margin: 0;
+    display: flex;
+}
+
+
+.n-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.n-right {
+    display: flex;
+    flex: 1;
+}
+
+.n-list {
+    flex: 10;
+}
+.n-list > ul li a:hover {
+   
+    color: var(--orange);
+}
+.n-list ul li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--black);
+    font-family: var(--fonts);
+    transition: 0.5s all;
+}
