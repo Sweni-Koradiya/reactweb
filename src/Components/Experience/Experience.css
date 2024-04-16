@@ -1,0 +1,16 @@
+.achievement {
+    text-align: center;
+    border: 7px solid #7ebcee;
+    border-radius: 20px;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.circle {
+    font-size: 45px;
+    font-weight: bold;
+    color: var(--yellow);
+}
